@@ -36,28 +36,36 @@ padding:5px;
 .first{
 background-color:blue;
 display:flex;
+flex-direction:row;
 font-size:2em;
 }
 .second{
 background-color:red;
 display:flex;
+flex-direction:row;
 font-size:2em;
 }
 
 .third{
 background-color:blue;
 display:flex;
+flex-direction:row;
 font-size:2em;
 }
 
 .four{
 background-color:red;
 display:flex;
+flex-direction:row;
 font-size:2em;
 }
 .center{
 display:flex;
+justify-content:space-between;
+margin:10px;
 }
+
+
 .first-row,.second-row,.third-row{
 padding:20px;
 font-size:10px;
@@ -68,10 +76,37 @@ padding:40px;
 font-size:10px;
 }
 
-.kj{
+.riyaz > div{
 font-size:1em;
 display:flex;
+flex-direction:row;
 }
+
+  /* DESKTOP DEVICE*/
+    
+    /*640*/
+    @media only screen and (max-width:700px){  
+    body{
+         background-color: black;
+         font-size:35%;
+     }
+    }
+
+    /*680*/    
+    @media only screen and (max-width:600px){
+    body{
+        background-color: blue;
+         font-size:28%;
+    }
+    }
+
+    /*740*/
+    @media only screen and (max-width:500px){
+    body{
+        background-color: red;
+        font-size:10%;    
+}
+    }
 
 </style>
 </head>
@@ -82,12 +117,12 @@ display:flex;
 
 <div class="riyaz">
 <strong>Flipkart <sup>Lite</sup> </strong><p>Explore Plus*</p>
-<div id="kj">
+<div>
 <input type="text" name="serch" placeholder="*Search for products,Brands and more" size="90" width="50%">
-<input type="text" name="Information" placeholder="LOGIN" size="10" width="50%">
+<input type="text" name="Information" placeholder="LOGIN" size="10" width="50%"
 <input type="text" name="Information" placeholder="MORE" size="10" width="50%">
 <input type="text" name="Information" placeholder="CART" size="10" width="50%">
-<input type="text" name="Information" placeholder="View all" size="10" width="50%">
+<input type="text" name="Information" placeholder="View all" size="10" width="50%"> 
 </div>
 </div>
 <br/>
@@ -148,7 +183,7 @@ display:flex;
 
 <h2> Super Saver Deals Of the day: </h2>
 <div class="center">
-<img src="images/Galaxy S21 S21+.jpg"width="17%" align="left"/>
+<img src="images/Galaxy S21 S21+.jpg"width="18%" align="left"/>
 <img src="images/Best -seling AC.jpg" width="17%" align="right"/>
 <img src="images/Electronics.jpg"width="18%"/>
 <img src="images/Top Fasion Brands.jpg" width="17%"/>
