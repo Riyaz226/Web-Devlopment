@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Upper And Lower</title>
+    </head>
+    <body>
+        
+        <input id="names" type="text"></br>
+        <button onclick="upper()">Sumbit</button>
+
+      <p id="demo"></p>        
+    </body>
+
+    <script>
+        function upper() {
+            var text;
+        var names=document.getElementById("names").value;
+        switch(names){
+              case 'RIYAZ':
+                text="It Is Uppercase";
+               break;
+              
+              case  "samu":
+                text="It Is   Lowercase";
+               break; 
+            
+               default:
+                   text="it is no upper / and lower"
+
+          }    
+       
+          document.getElementById("demo").innerHTML=text;
+    
+    }
+       
+    </script>
+</html>
+
