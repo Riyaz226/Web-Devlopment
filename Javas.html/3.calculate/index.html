@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculate Method</title>
+    </head>
+ <body>
+     
+       <input id="name" type="text"><br/>
+      <button onclick="welcome()">Sumbit</button>
+      
+      <p id="demo"></p>
+     
+ </body>  
+ <script>
+
+    
+    
+    function welcome() {
+        let name = document.getElementById("name").value;
+          if(name == 'raju' || name =='gita' || name == 'ravi'){
+            document.getElementById('welcome_message').innerHTML = "welcome class"
+          } else {
+              document.getElementById('welcome_message').innerHTML ="You're not allowed"
+          }
+          document.getElementById("demo").innerHTML=text;
+        
+    }
+
+ </script> 
+</html> 
