@@ -5,26 +5,91 @@
     </head>
  <body>
      
-       <input id="name" type="text"><br/>
+       <input type="text" id="username" oninput="onclear()"><br/>
       <button onclick="welcome()">Sumbit</button>
       
-      <p id="demo"></p>
+    <div style="padding: 20px">
+      <div id="welcome_message"></div>
+    <p id="week"></p> 
+    <span>Riyaz:</span><span id="text1"></span><br/>
+    <span>Leo:</span><span id="text1"></span><br/>
+    <span>Vikanesh:</span><span id="text1"></span><br/> 
+ </div>
      
  </body>  
  <script>
+         function onclear (){
+           if(document.getElementById("username").value == ''){
+            document.getElementById('welcome_message').innerHTML = '';
+           }
+         }
 
-    
-    
-    function welcome() {
-        let name = document.getElementById("name").value;
-          if(name == 'raju' || name =='gita' || name == 'ravi'){
-            document.getElementById('welcome_message').innerHTML = "welcome class"
-          } else {
-              document.getElementById('welcome_message').innerHTML ="You're not allowed"
-          }
-          document.getElementById("demo").innerHTML=text;
-        
+      switch(new Date(). getDay ()){
+        case 0:
+          day="Sunday";
+              document.getElementById("day").innerHTML="Sunday";
+              document.getElementById("day").innerHTML="present";
+              document.getElementById("day").innerHTML="present";
+              document.getElementById("day").innerHTML="present";
+        break; 
+
+        case 1:
+          day="Monday";
+              document.getElementById("day").innerHTML="Monday";
+              document.getElementById("day").innerHTML="absent";
+              document.getElementById("day").innerHTML="present";
+              document.getElementById("day").innerHTML="present";
+        break;
+
+        case 2:
+          day="Tuesday";
+              document.getElementById("day").innerHTML="Tuesday";
+              document.getElementById("day").innerHTML="absent";
+              document.getElementById("day").innerHTML="present";
+              document.getElementById("day").innerHTML="present";
+        break;
+
+        case 3:
+          day ="  Wednesday";
+              document.getElementById("day").innerHTML="Wednesday";
+              document.getElementById("day").innerHTML="absent";
+              document.getElementById("day").innerHTML="present";
+              document.getElementById("day").innerHTML="present";
+        break;
+
+        case 4:
+          day="Thursday";
+              document.getElementById("day").innerHTML="Thursday";
+              document.getElementById("day").innerHTML="absent";
+              document.getElementById("day").innerHTML="present";
+              document.getElementById("day").innerHTML="present";
+        break;
+
+        case 5:
+        day ="Friday";
+              document.getElementById("day").innerHTML="Friday";
+              document.getElementById("day").innerHTML="present";
+              document.getElementById("day").innerHTML="present";
+              document.getElementById("day").innerHTML="present";
+        break;  
+
+        case 6:
+             day ="Saturday";
+              document.getElementById("day").innerHTML="Saturday";
+              document.getElementById("day").innerHTML="present";
+              document.getElementById("day").innerHTML="present";
+              document.getElementById("day").innerHTML="present";
+        break;   
+      }   
+
+     function welcome() {
+        let name =document.getElementById("username").value;
+        if(name == "Riyaz" || name == "leo" || name == "Vikanesh"){
+          document.getElementById("welcome_message").innerHTML="welcome" +name;
+        }else{
+           document.getElementById("welcome_message").innerHTML="you not allowed";
+     } 
     }
-
+     
  </script> 
 </html> 

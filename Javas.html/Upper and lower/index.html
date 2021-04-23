@@ -1,37 +1,41 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Upper And Lower</title>
-    </head>
-    <body>
-        
-        <input id="names" type="text"></br>
-        <button onclick="upper()">Sumbit</button>
+<head>
+	<title></title>
+</head>
+<body>
 
-      <p id="demo"></p>        
-    </body>
+	<input type="text" id="text" oninput="onclear()"></br>
+	<button onclick="uppercase()">Upper </button>
+	<button onclick="lowercase()">Lower </button>
 
-    <script>
-        function upper() {
-            var text;
-        var names=document.getElementById("names").value;
-        switch(names){
-              case 'RIYAZ':
-                text="It Is Uppercase";
-               break;
-              
-              case  "samu":
-                text="It Is   Lowercase";
-               break; 
-            
-               default:
-                   text="it is no upper / and lower"
+	<p id="answer"></p>
 
-          }    
-       
-          document.getElementById("demo").innerHTML=text;
-    
-    }
-       
-    </script>
+</body>
+<script>
+	function onclear () {
+		if (document.getElementById('text').value == '') {
+			document.getElementById("answer").innerHTML = '';
+		}
+	}
+	function uppercase () {
+		let letter = document.getElementById('text').value;
+		if (letter == letter.toUpperCase()) {
+		    document.getElementById("answer").innerHTML = "It Is Uppercase"
+		} else{
+			document.getElementById("answer").innerHTML = "It Is Not Uppercase"
+		}
+	}
+
+	function lowercase () {
+		let letter = document.getElementById('text').value;
+		if (letter == letter.toLowerCase()) {
+			document.getElementById("answer").innerHTML = "It Is Lowercase"
+		} else{
+			document.getElementById("answer").innerHTML = "It Is Not Lowercase"
+		}
+	}
+
+	
+</script>
 </html>
-
