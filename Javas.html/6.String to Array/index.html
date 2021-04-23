@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p id="text">Name : S.Mohamed Riyaz, Study : II Year B.C.A , Collage : Jamal Mohamed Collage, Devlop: Web design, and Game Devlop Favourite:Play Games</p></br></br>
+	
+    <button onclick="forloop()">click</button>
+	
+       <p id="result"></p>
+</body>
+<script>
+
+	let str = document.getElementById('text').value;
+	let array = str.split(",");
+	function forloop () {
+	for (i = 0; i < array.length; i++) {
+    document.getElementById("result").innerHTML += array[i] + "<br>";
+      }
+    }
+    
+
+</script>
+</html>
