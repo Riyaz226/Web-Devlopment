@@ -17,7 +17,7 @@ img {
     height: 200px;
 }
 
-.allTab, .menTab, .womenTab, .electronicsTab {
+.all, .strom, .strom3, .electronics {
     margin: 1rem;
     background-color: aliceblue;
     border: 1px solid blue;

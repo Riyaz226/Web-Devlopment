@@ -116,10 +116,15 @@ const filterData = (category) => {
         let c = document.getElementById('card-container')
         console.log('c', c)
         c.replaceChild(newContent, content)
-    }
-    // end dom creation     
 
-    afterFilter.map((item) => {
+        
+    }
+    // end dom creation
+    createDOM(afterFilter)   
+}
+
+const createDOM =(arr) => {
+    arr.map((item) => {
         // 1. dom elements create - img, p
         // 2. append those elements 
 
@@ -132,10 +137,46 @@ const filterData = (category) => {
         let p = document.createElement('p')
         p.innerText = item.title
 
+        
         let content = document.getElementById('content')
         content.appendChild(img)
         content.appendChild(p)
     })
+}
+
+const uptateDOM =(arr) => {
+    let newContent = document.createElement('div')
+    newContent.classList.add("card-section");
+    newContent.setAttribute('id', 'content')
+
+    let c = document.getElementById('card-container')
+    console.log('c', c)
+    c.replaceChild(newContent, content)
+   
+    arr.map((item) => {
+        // 1. dom elements create - img, p
+        // 2. append those elements 
+
+        let img = document.createElement('img')
+        img.src = item.image
+        img.alt = item.title
+
+        console.log("img", img)
+
+        let p = document.createElement('p')
+        p.innerText = item.title
+
+        let copy = document.getElementById('content')
+        copy.appendChild(img)
+        copy.appendChild(p)
+    })
+
+}
+const delete_old_stock =() =>{
+       console.log('delete function called')
+       ecommerceData.pop()
+       console.log('after pop',ecommerceData)
+       uptateDOM(ecommerceData)
 }
 
 
