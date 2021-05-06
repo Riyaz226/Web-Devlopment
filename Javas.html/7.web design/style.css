@@ -48,6 +48,11 @@
      cursor: pointer;   
 }
 
+img{
+     width: 232px;
+     height: 95px;
+
+}
 .card-section{
     flex-direction: column;
 }

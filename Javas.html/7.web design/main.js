@@ -1,73 +1,67 @@
 let ecommerceData = [
     {
         id: 1,
-        title: 'New Model 2021',
+        title: 'Electronic Car',
         price: 4.5,
         category: "Strom -R3",
-        image: ''
+        image: 'https://electricvehicleweb.in/wp-content/uploads/2020/04/Strom-R3-electric-car-side.jpg'
     },
     {
         id: 2,
-        title: 'New Model 2021',
+        title: 'New Model (car)',
         price: 2.3,
         category: "Strom-R3",
-        image: 'https://images.app.goo.gl/CVQEZtQN2oDFh9dV9'
-    },
+        image: 'https://specials-images.forbesimg.com/imageserve/5d3703e2f1176b00089761a6/960x0.jpg'
+        },
     {
         id: 3,
-        title: 'New Model 2021',
+        title: 'New Model 2022',
         price: 5.9,
         category: "Strom-R3",
-        image: 'https://images.app.goo.gl/67RcCDDHWnedVTBo8'
+        image: 'https://cdn.luxe.digital/media/2020/12/15110747/fastest-cars-world-2021-luxe-digital%402x.jpg'
     },
     {
         id: 4,
-        title: 'New Model 2020 ,2021',
+        title: 'Bike 150 ',
         price: 1.99,
          category: "Strom-3",
-        image: 'https://images.app.goo.gl/bjSf9AfQ7bKEZ5qN7'
+        image: 'https://imgd.aeplcdn.com/640x348/n/cw/ec/46756/yamaha-mt-15-front-right-three-quarter1.jpeg'
     },
     {
         id: 5,
-        title: "New Model 2020 ,2021 ",
+        title: "Balsar ",
         price: 6.87,
         category: 'Strom-3',
-        image: 'https://images.app.goo.gl/pKuGZbZ19zqyG5Sf9'
+        image: 'https://images.hindustantimes.com/auto/img/2020/05/13/600x338/indian-ftr-1200_1588172877332_1588172877642_1589370092100.jpg'
     },
     {
         id: 6,
-        title: 'New Model 2020 ,2021',
+        title: 'Yamaka',
         price: 168,
         category: 'Strom-3',
-        image: 'https://images.app.goo.gl/qnpVzgcUHTpfswaT7'
+        image: 'https://images.livemint.com/img/2019/10/08/600x338/2019-10-07T102129Z_1_LYNXMPEF960L5_RTROPTP_3_HARLEY-DAVIDSON-ELECTRICBIKE_1570505064296_1570505080774.JPG'
     },
+    
     {
         id: 7,
-        title: 'New Model 2018 ,2019',
-        price: 9.99,
-         category: 'electronics',
-        image: 'https://images.app.goo.gl/oRhGcE8aLcirb9Z56'
+        title: ' Magnat Train ',
+        price: 10.99,
+        category: 'electronics',
+        image:'https://images.megapixl.com/2157/21576325.jpg'
     },
     {
         id: 8,
-        title: 'New Model 2018 ,2019',
-        price: 10.99,
-        category: 'electronics',
-        image: 'https://images.app.goo.gl/DQQL4oU4A2EmupEc7'
+        title: 'New York Ship 1284',
+        price: 64,
+       category: 'electronics',
+        image: 'https://www.cruiseindustrynews.com/images/stories/wire/2020/dec/world_europa1.jpg'
     },
     {
         id: 9,
-        title: 'New Model 2018 ,2019',
-        price: 64,
-       category: 'electronics',
-        image: 'https://images.app.goo.gl/Vty3eyAdog5NBneCA'
-    },
-    {
-        id: 10,
-        title: 'New Model 2017 less',
+        title: 'India Airlines',
         price: 109,
         category: 'electronics',
-        image: 'https://images.app.goo.gl/Vty3eyAdog5NBneCA'
+        image: 'https://upload.wikimedia.org/wikipedia/commons/f/fc/Tarom.b737-700.yr-bgg.arp.jpg'
     },
     
 ]
