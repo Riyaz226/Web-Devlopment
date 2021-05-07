@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Call Method</title>
+    <style>
+        body{
+        background-color: blue;
+    }
+        h1{
+            text-align:center ;
+        }
+        .syntax{
+            margin-left: 3%;
+            font-size: 23px;
+        }
+        .syntax1{
+            border: 1px solid black;
+            width: 35%;
+            height: 38px;
+            margin-left: 8%;
+            font-size: 23px;
+            margin-top: 2%;
+            text-align: center; 
+            letter-spacing: 1px;
+        }
+        .syntax2{
+            border: 1px solid black;
+            width: 68%;
+            height: 456px;
+            margin-top: 3.5%;
+            margin-left: 15%;
+            letter-spacing: 1px;
+        }
+        .infor,.example1,.example4,.result{
+            margin-left: 3.6%;
+             font-size: 26px;
+            margin-top: 3%;
+            text-decoration: underline;
+        }
+        .infor1,.infor2,.infor3,.infor4{
+            margin-left: 5.6%;
+           font-size: 26px;
+           margin-top: 3%;
+        }
+        .example{
+            border: 1px solid black;
+            width: 52%;
+            height: 453px;
+          margin-left: 3%;
+          margin-top: 2%;
+        }
+        .example2,.example3,.example5{
+            margin-top: 3%;
+            margin-left: 5%;
+            letter-spacing: 1px;
+            font-size: 23px;
+        }
+        .result1{
+            margin-top: 1%;
+            margin-left: 5%;
+            letter-spacing: 1px;
+            font-size: 23px;
+        }
+       
+        a{
+            font-size: 32px;
+            margin-top: 3%;
+            text-decoration: none;
+            float: right;
+        }
+        
+    </style>    
+    </head>
+    <body>
+   <h1>Call Method</h1>
+        <div class="syntax">*The <q>Function</q> type has a method named <q>call()</q> with the following syntax:</div>
+        <div class="syntax1">functionName.call(thisArg, arg1, arg2,....)</div>
+        <div class="syntax2">
+            <div class="infor">Syntax Information: </div>
+              <div class="infor1">*The Call() method calls a function functionName with a given this value and arguments.</div>
+              <div class="infor2">*The first arguments of the call() method thisArg is the this value.it allows you to set the this value to any given object.</div>
+               <div class="infor3">*The remaining arguments of the call() method arg1,arg2.... are the arguments of the function.</div>
+               <div class="infor4">*When you invoke a function,the JavaScript engine invokes the call() method of that function object.</div>
+            </div>
+    <h2>Example</h2>     
+      <div class="example">
+        <div class="example1">Program:</div>
+        <div class="example2">function add(a,b) { <br/><br/> return a+b ; <br/><br/> }</div>
+        <div class="example3">let result = add.call(this, 10, 20); <br/><br/> console.log(result)</div>    
+        <div class="example4">Output:</div> 
+        <div class="example5">30</div>
+     </div>  
+      
+      <div class="result">Result:</div>
+      <div class="result1">In this example,instead of calling the add() function directly,we use the call() method to  invoke the add() function.The this value is  set to global object.</div>
+      <a href="index.html">>>Back</a>
+    </body>
+</html>

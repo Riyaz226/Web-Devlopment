@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rest Operator</title>
+    </head>
+ <style>
+     body{
+         background-color: coral;
+     }
+h1{
+    text-align: center;
+}
+.first,.second4{
+            margin-left: 3%;
+            font-size: 25px;
+            text-decoration: underline;
+            margin-top: 1%;
+        }
+  .first1      {
+            margin-left: 3%;
+            font-size: 23px;
+            margin-top: 1%;
+            letter-spacing: 1px;
+ }  
+ .first2{
+            border: 1px solid black;
+            width: 35%;
+            height: 138px;
+            margin-left: 23%;
+            font-size: 23px;
+            margin-top: 2%;
+            text-align: center; 
+            letter-spacing: 1px;
+        } 
+        .second{
+            border: 1px solid black;
+            width: 68%;
+            height: 648px;
+            margin-top: 3.5%;
+            margin-left: 3%;
+            letter-spacing: 1px;
+        }
+  .second1{
+            margin-left: 3.6%;
+             font-size: 26px;
+            margin-top: 3%;
+            text-decoration: underline;
+        }  
+  .second2 ,.second3,.second5,.result1{
+            margin-left: 5.6%;
+           font-size: 26px;
+           margin-top: 3%;
+        }  
+.result{
+    margin-left:4%;
+    margin-top: 2%;
+    font-size: 25px;
+    text-decoration: underline; 
+}
+.result1{
+            margin-left: 5.6%;
+           font-size: 26px;
+           margin-top: 1%;
+        }
+        a{
+            font-size: 32px;
+            margin-top: 3%;
+            text-decoration: none;
+            float: right;
+        }     
+ </style>   
+ <body>
+<h1>Rest Operator</h1>
+     <div class="first">Rest Operator:</div>
+     <div class="first1">*ES6 provides a new kind of parameter so-called rest parameter that has a prefix of three dots(...).The rest parameter allows you to represent an indefinite number of arguments as an array.See the following syntax:</div>
+     <div class="first2">function fn(a,b,... args){<br/><br/>//...<br/><br/>}</div>
+ <h2>Example</h2>
+    <div class="second">
+        <div class="second1">Program:</div>
+        <div class="second2">function sum(...args) { <br/><br/> let total =0;<br/><br/> for (const a of args) { <br/><br/> total +=a; <br/><br/>} <br/><br/>return total;<br/><br/> }</div>
+        <div class="second3">sum(1,2,3);</div>
+        <div class="second4">Output:</div>
+        <div class="second5">6</div>
+    </div>    
+     
+    
+        <div class="result">Result:</div>
+         <div class="result1">*args in an array,therefore,we could use the for of loop to iterate over its elements and sum them up. Assuming that the caller of the sum() function may pass arguments with various kind of data types such as number,string,and boolean and you want to calculater the total of number.</div>
+         <a href="index.html">>>Back</a>
+ </body>
+</html>

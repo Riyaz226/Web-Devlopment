@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Optional Chaining</title>
+    </head>
+ <style>
+     body{
+         background-color: blue;
+     }
+h1{
+    text-align: center;
+}
+.first,.first1{
+    margin-left: 4%;
+    font-size: 23px;
+    margin-top:2% ;
+}
+.second{
+    border: 1px solid black;
+    width: 34%;
+    height: 533px;
+}
+.second0,.second3{
+    text-decoration: underline;
+    font-size: 23px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.second1{
+    font-size: 23px;
+    margin-top: 4%;
+    margin-left: 8%;
+}
+.second2,.second4{
+    font-size: 23px;
+    margin-top: 4%;
+    margin-left: 14%;
+}
+a{
+            font-size: 32px;
+            margin-top: 3%;
+            text-decoration: none;
+            float: right;
+        } 
+ </style>   
+ <body>
+<h1>Optional Chaining</h1>
+     <div class="first">*The optional chaining operator (?.) allows you to access the value of a property located deep within a chain of objects without explicitly checking if each reference in the chain is null or undefined.</div>
+     <div class="first1">*if one of the reference in the chain is null or undefined,the optional chaining operator(?.)will sort circuit and return undefined.</div>
+<h2>Example</h2>     
+     <div class="second">
+         <div class="second0">Program:</div>
+         <div class="second1">const user={ <br/><br/>dog:{<br/><br/> name:"Alex" <br/><br/>} <br/><br/> };</div>
+         <div class="second2">console.log(user.cat?.name);//undefined<br/><br/>console.log(user.dog?.name);//Alex<br/><br/>console.log(user.cat.name);</div>
+          <div class="second3">Output:</div>
+          <div class="second4">Alex</div>
+        </div> 
+        <a href="index.html">>>Back</a>         
+</body>
+</html>

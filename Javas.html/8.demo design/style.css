@@ -7,6 +7,7 @@ h1{
     height: 128%;
     margin-left: 1%;
     margin-top: 4%;
+    background-color:#abbde5;
 }
 .box2{
     border: 1px solid black;
@@ -14,6 +15,7 @@ h1{
     height: 220%;
     margin-left: 1%;
     margin-top: 4%;
+    background-color:#abbde5;
 }
 .first{
     border: 1px solid black;
@@ -42,6 +44,7 @@ h1{
        font-size: 20px;
        margin-left: 35.5%;
        margin-top: 6%;
+       background-color: burlywood;
 }
 
  .first2 > a{
@@ -77,6 +80,7 @@ h1{
     font-size: 20px;
     margin-left: 35.5%;
     margin-top: 6%;
+    background-color: burlywood;
 }
 
 .second3 > a{
@@ -109,6 +113,7 @@ h1{
     font-size: 20px;
     margin-left: 35.5%;
     margin-top: 3%;
+    background-color: burlywood;
 }
 
 .third3 > a{
@@ -156,6 +161,7 @@ h1{
     font-size: 20px;
     margin-left: 35.5%;
     margin-top: 8%;
+    background-color: burlywood;
 }
 .five3 > a{
     text-decoration: none;
@@ -189,6 +195,7 @@ h1{
     font-size: 20px;
     margin-left: 37.8%;
     margin-top: 2%;
+    background-color: burlywood;
 }
 .six5 >a{
   text-decoration: none;
@@ -215,6 +222,7 @@ h1{
     font-size: 20px;
     margin-left: 37.8%;
     margin-top: 5%;
+    background-color: burlywood;
 }
 .eight3 >a{
     text-decoration: none;

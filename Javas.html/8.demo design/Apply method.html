@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Apply Method</title>
+    </head>
+<style>
+    body{
+        background-color: darkcyan;
+    }
+    h1{
+            text-align: center;
+
+        }
+.syntax{
+    margin-left: 3%;
+    font-size: 23px;
+    word-spacing: 1px;
+}
+.syntax1{
+    border: 1px solid black;
+            width: 35%;
+            height: 38px;
+            margin-left: 8%;
+            font-size: 23px;
+            margin-top: 2%;
+            text-align: center; 
+            letter-spacing: 1px;
+}
+
+.syntax2{
+            border: 1px solid black;
+            width: 68%;
+            height: 385px;
+            margin-top: 3.5%;
+            margin-left: 15%;
+            letter-spacing: 1px;
+        }
+
+.infor,.infor4,.example1,.example3,.result{
+            margin-left: 3.6%;
+             font-size: 26px;
+            margin-top: 3%;
+            text-decoration: underline;
+            
+        }
+ .infor4{
+     text-decoration: none;
+ }       
+.infor1,.infor2,.infor3{
+            margin-left: 5.6%;
+           font-size: 26px;
+           margin-top: 3%;
+           
+        }
+        .example{
+            border: 1px solid black;
+            width: 52%;
+            height: 628px;
+          margin-left: 3%;
+          margin-top: 2%;
+        } 
+        .example2,.example4{
+            margin-top: 3%;
+            margin-left: 5%;
+            letter-spacing: 1px;
+            font-size: 23px;
+        }
+        .result1,.result2{
+            margin-top: 1%;
+            margin-left: 5%;
+            letter-spacing: 1px;
+            font-size: 23px;
+        }
+       
+        a{
+            font-size: 32px;
+            margin-top: 2%;
+            text-decoration: none;
+            float: right;
+        }
+</style> 
+<body>
+    <h1>Apply Method</h1>
+    <div class="syntax">*The Function.prototype.apply() method allows you to call a function with a given this value and arguments provided as an array.Here is the syntax of the apply() method:</div>
+    <div class="syntax1">fn.apply(thisArg, [args]);</div>
+    <div class="syntax2">
+        <div class="infor">Syntax Information:</div>
+        <div class="infor1">The apply() method accepts two arguments:</div>
+        <div class="infor2">*The thisArg is the value of this provided for the call to the function fn. </div>
+        <div class="infor3">*The args argument is an array that specifies the arguments of the function fn.Since the ES5,the args argument can be an array-like object or array object.</div>
+        <div class="infor4">The apply() method is similar to the call() method except that it takes the arguments of the function as an array insted of the individual arguments.</div>
+    </div>
+    <h2>Example</h2>
+    <div class="example">
+        <div class="example1">Program:</div>
+        <div class="example2">const person ={ <br/><br/> firstName : 'John', <br/><br/>lastName :'Doe' <br/><br/>}  //person object <br/><br/>function greet(greeting,message){<br/><br/>return '${greeting} ${this.firstName} ${message}';<br/><br/>}// and a function named greet() <br/><br/>let result =greet.apply(person,['Hello','How are you?']);<br/><br/>consolr.log(result);</div>
+        <div class="example3">Output:</div> 
+        <div class="example4">Hello John, How are you?</div>
+    </div>
+   
+    <div class="result">Result:</div>
+    <div class="result1">In this example,*we set the this value inside the function to the person object.The arguments of the greet() function was passed into the apply() method as an array.</div>
+    <div class="result2">*The apply() method invoked the greet() function with the this value set to the person object and arguments as an array['Hello','How are you?'].</div>
+    <a href="index.html">>>Back</a>
+
+</body>   
+</html>

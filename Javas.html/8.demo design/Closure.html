@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>closure</title>
+    </head>
+<style>
+    body{
+        background-color: darkcyan;
+    }
+    h1{
+        text-align:center ;
+    }
+.syntax{
+            margin-left: 3%;
+            font-size: 23px;
+        }
+
+        .example{
+            border: 1px solid black;
+            width: 52%;
+            height: 648px;
+          margin-left: 3%;
+          margin-top: 2%;
+        }
+        .example1,.example3,.result{
+            margin-left: 3.6%;
+             font-size: 26px;
+            margin-top: 3%;
+            text-decoration: underline;
+        } 
+        .example2,.example4{
+            margin-top: 3%;
+            margin-left: 5%;
+            letter-spacing: 1px;
+            font-size: 23px;
+        }  
+        .result1{
+            margin-top: 1%;
+            margin-left: 5%;
+            letter-spacing: 1px;
+            font-size: 23px;
+        }
+       
+        a{
+            font-size: 32px;
+            margin-top: 3%;
+            text-decoration: none;
+            float: right;
+        }     
+</style>    
+<body>
+    <h1>Closure</h1>
+    <div class="syntax">*Closure Means that an inner function always has access to the vars and parameters  of its outer function,even after the outer function has returned.</div>
+   <h2>Example</h2>
+   <div class="example">
+    <div class="example1">Program:</div>
+    <div class="example2">function A() { <br/><br/> let num =20 <br/><br/> let sum = 50 <br/><br/> function B(){<br/><br/> console.dir(B)<br/><br/>console.log(num + 30 + sum)<br/><br/> } B() <br/><br/> } <br/><br/> A()</div>    
+    <div class="example3">Output:</div> 
+    <div class="example4">100</div>
+</div>
+    <div class="result">Result:</div>
+    <div class="result1">*It Is also simply closure satement.that is addition calculate means function A,and Functio B calculate Add in Answer 100.</div>
+    <a href="index.html">>>Back</a>
+ </body>
+</html>

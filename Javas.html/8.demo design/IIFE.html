@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IIFE</title>
+<style>
+    body{
+        background-color: darkcyan;
+    }
+    h1{
+        text-align:center ;
+    }
+ .syntax{
+            margin-left: 3%;
+            font-size: 23px;
+        }
+
+.syntax1{
+            border: 1px solid black;
+            width: 33%;
+            height: 230px;
+            margin-left: 8%;
+            font-size: 23px;
+            margin-top: 2%;
+            letter-spacing: 1px;
+            text-align:center ;
+        }
+        .syntax2{
+            border: 1px solid black;
+            width: 68%;
+            height: 256px;
+            margin-top: 3.5%;
+            margin-left: 15%;
+            letter-spacing: 1px;
+        }
+        .infor,.example1,.example4,.result{
+            margin-left: 3.6%;
+             font-size: 26px;
+            margin-top: 3%;
+            text-decoration: underline;
+        }
+        .infor1,.infor2{
+            margin-left: 5.6%;
+           font-size: 26px;
+           margin-top: 3%;
+        }
+        .example{
+            border: 1px solid black;
+            width: 52%;
+            height: 325px;
+          margin-left: 3%;
+          margin-top: 2%;
+        } 
+        .example2,.example3,.example5{
+            margin-top: 3%;
+            margin-left: 5%;
+            letter-spacing: 1px;
+            font-size: 23px;
+        }
+        .result1{
+            margin-top: 1%;
+            margin-left: 5%;
+            letter-spacing: 1px;
+            font-size: 23px;
+        }
+       
+        a{
+            font-size: 32px;
+            margin-top: 3%;
+            text-decoration: none;
+            float: right;
+        }
+</style>
+ <body>
+    <h1>IIFE=(Immediately Invoked Function Expressions)</h1>
+    <div class="syntax">*The following Syntax:</div>
+    <div class="syntax1">( <br/>function hello(){<br/><br/>console.log('hello')<br/><br/>}<br/><br/>)();</div>
+    <div class="syntax2">
+        <div class="infor">Syntax Information:</div>
+        <div class="infor1">*A JavaScript <q>immediately invoked function</q> expersion is a function defined as an expersion and executed immediately after creation.</div>
+        <div class="infor2">*The following shows the syntax of defining  an immediately invoked function Expressions.</div>
+    </div>
+   
+    <h2>Example</h2>
+    <div class="example">
+        <div class="example1">Program:</div>
+        <div class="example2">let add =(function(a,b){ <br/><br/>return a+b;})(10,20);</div>
+        <div class="example3">console.log(add);</div>
+        <div class="example4">Output:</div> 
+        <div class="example5">30</div>
+     </div> 
+     
+     <div class="result">Result:</div>
+     <div class="result1">In this example,instead of calling the add() function directly,we use the call() method to  invoke the add() function.The this value is  set to global object.</div>
+    <a href="index.html">>>Back</a>  
+</body>
+</head>
+</html>

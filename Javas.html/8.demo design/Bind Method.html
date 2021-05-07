@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bind method</title>
+    </head>
+ <style>
+     body{
+        background-color: darkcyan;
+    }
+.syntax{
+            margin-left: 3%;
+            font-size: 23px;
+        }
+.syntax1{
+            margin-left: 3%;
+            font-size: 23px;
+            margin-top: 2%;
+        }
+        .syntax2{
+            border: 1px solid black;
+            width: 35%;
+            height: 38px;
+            margin-left: 12%;
+            font-size: 23px;
+            margin-top: 2%;
+            text-align: center; 
+            letter-spacing: 1px;
+        } 
+        .syntax3{
+            border: 1px solid black;
+            width: 68%;
+            height: 323px;
+            margin-top: 3.5%;
+            margin-left: 15%;
+            letter-spacing: 1px;
+        }
+        .infor,.example1,.example4,.result{
+            margin-left: 3.6%;
+             font-size: 26px;
+            margin-top: 3%;
+            text-decoration: underline;
+        }   
+        .infor1,.infor2{
+            margin-left: 5.6%;
+           font-size: 26px;
+           margin-top: 3%;
+        } 
+        .example{
+            border: 1px solid black;
+            width: 52%;
+            height: 513px;
+          margin-left: 3%;
+          margin-top: 2%;
+        }
+        .example2,.example3,.example5{
+            margin-top: 3%;
+            margin-left: 5%;
+            letter-spacing: 1px;
+            font-size: 23px;
+        }  
+        .output{
+            margin-left: 3%;
+            font-size: 23px;
+            margin-top: 2%;
+        } 
+        .result1,.result2{
+            margin-top: 1%;
+            margin-left: 5%;
+            letter-spacing: 1px;
+            font-size: 23px;
+        }
+       
+        a{
+            font-size: 32px;
+            margin-top: 3%;
+            text-decoration: none;
+            float: right;
+        }
+        
+ </style> 
+ <body>
+     <h1>Bind Method</h1>
+     <div class="syntax">*The bind() method returns a new function,when invoked,has its this sets to a specific value.</div>
+     <div class="syntax1">*The following illustrates the syntax of the bind() method.</div>
+     <div class="syntax2">fn.bind(thisArg[, arg1[, arg2[, ...]]])</div>
+     <div class="syntax3">
+          <div class="infor">Syntax Information: </div>
+          <div class="infor1">*In this syntax, the bind() method returns  a copy of the  function fn with the specfic this value (this Arg) and arguments(arg1,arg2,....).</div>
+           <div class="infor2">*Unlike the call() and apply() methods,the bind() method doesn't immediately execute the function.It just returns a new version of the function whose this sets to thisArg arugument. </div> 
+    </div>
+    <h2>Example</h2>
+    <div class="example">
+        <div class="example1">Program:</div>
+        <div class="example2">let person = { <br/><br/> name : 'John Doe', <br/><br/> getName : function() {<br/><br/> console.log(this.name);<br/><br/>} <br/><br/>};</div>
+        <div class="example3">setTimeout(person.getName,1000);</div>
+        <div class="example4">Output:</div> 
+        <div class="example5">undefined</div>
+     </div> 
+
+     <div class="output">=>When you pass a method an object is to another function as a callback,the this is lost.</div>
+     <div class="result">Result:</div>
+     <div class="result1">*As you can see clearly from the output,the person.getName() returns undefined instead of 'John Doe'.</div>
+     <div class="result2">*This is because setTimeout() recived the function person.Name separately from the person object.</div>
+     <a href="index.html">>>Back</a>
+ </body>  
+</html>
