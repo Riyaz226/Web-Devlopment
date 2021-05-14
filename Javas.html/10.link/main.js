@@ -1,3 +1,5 @@
+
+function json(){
 async function fetchUsers () {
        const res = await fetch('https://jsonplaceholder.typicode.com/photos')
        let data = await res.json();
@@ -51,4 +53,6 @@ async function fetchUsers () {
        document.getElementById('title10').innerHTML = head10.title;
        document.getElementById('body10').innerHTML = head10.body;
        document.getElementById('url10').innerHTML = head10.url;
+}
+fetchUsers()
 }
