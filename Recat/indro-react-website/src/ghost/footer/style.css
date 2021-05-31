@@ -1,0 +1,10 @@
+.footer{
+    border: 1px solid lightblue;
+    background-color: lightblue;
+}
+.buttonWrapper{
+    display: flex;
+    justify-content: space-around;
+    width:80%;
+   margin-left: 5%;
+}
