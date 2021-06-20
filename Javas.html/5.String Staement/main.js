@@ -1,4 +1,5 @@
 //string length
+
 //var txt="S.MOHAMED RIYAZ"
 //var sln=txt.length;
 //document.getElementById("rio").innerHTML=sln;
