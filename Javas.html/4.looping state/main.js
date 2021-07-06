@@ -1,12 +1,12 @@
 //whille loop statement
 
-//let count=10;
-//function add(){
-//  while(count >0){
-//    document.getElementById('demo').innerHTML=(count--)
- // }
+// let count=10;
+// function add(){
+//  while(count >10){
+//    document.getElementById('demo').innerHTML=(count++)
+//  }
 //  document.getElementById('demo').innerHTML=('while loop ended')
-//}
+// }
 
 //if else statement
 
