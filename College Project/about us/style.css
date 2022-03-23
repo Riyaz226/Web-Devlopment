@@ -1,0 +1,62 @@
+.one{
+    margin-top: 45px;
+    color: darkblue;
+}
+.two,.three{
+    color:#b16255;
+    font-size: 1.2em;
+    word-spacing: 2px;
+    padding-left: 38.5px;
+    line-height: 53px;
+}
+
+h3{
+    color: #2856ab;
+    font-size: 1.3em;
+    margin-top: 7px;
+    margin-left: 23px;
+}
+#second li{
+    color:#b16255;
+    list-style: none;
+    margin-left: 73px;
+    font-size: 1.2em;
+    margin-top: 14.5px;
+}
+table{
+    margin-left: 94px;
+    margin-top: 32px;
+}
+
+table th{
+    background-color: darkblue;
+    color: white;
+} 
+table tr{
+    text-align: center;
+    word-spacing: 2px;
+}
+
+.end{
+    background-color: #2b2d3b;
+   width: 101.2%;
+   height: 100px;
+   margin-left:-8px ;
+   margin-top: 26px;
+}
+.end .cn{
+   position: absolute;
+   color: white;
+   font-size: 1.1em;
+   margin-top: 30.5px;
+   margin-left: 140px;
+   word-spacing: 2px;
+}
+.end .cn2{
+   position: absolute;
+   color: white;
+   font-size: 1.2em;
+   margin-top: 39px;
+   margin-left: 878px;
+   word-spacing: 4px;
+}

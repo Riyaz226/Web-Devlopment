@@ -1,0 +1,61 @@
+h2{
+    word-spacing: 2px;
+    margin-left: 28px;
+    margin-top: 23px;
+    color: #28568e;
+}
+.one{
+    color:#b16255;
+    font-size: 1.2em;
+    word-spacing: 2px;
+    padding-left: 56.5px;
+    line-height: 45px;
+}
+.one span{
+    color: darkblue;
+}
+
+#second li{
+    list-style: none;
+    margin-left: 92px;
+    font-size: 1.1em;
+    word-spacing: 3px;
+    line-height: 38px;
+}
+.third{
+    display: flex;
+    margin-left: 198px;
+    margin-top: 23px;
+}
+.third div{
+  width: 256px;
+  height: 158px;
+  border: 3px solid black;
+  margin-left: 48px;
+  font-size: 1.3em;
+  line-height: 45px;
+  color: red;
+}
+.seven{
+    background-color: #2b2d3b;
+   width: 101.2%;
+   height: 112px;
+   margin-left:-8px ;
+   margin-top: 3px;
+}
+.seven .cn{
+   position: absolute;
+   color: white;
+   font-size: 1.1em;
+   margin-top: 36.5px;
+   margin-left: 140px;
+   word-spacing: 2px;
+}
+.seven .cn2{
+   position: absolute;
+   color: white;
+   font-size: 1.2em;
+   margin-top: 39px;
+   margin-left: 878px;
+   word-spacing: 4px;
+}

@@ -1,0 +1,670 @@
+
+header{
+    position:absolute;
+    background-color:#28568e;
+    width: 100%;
+    height: 48px;
+    margin-left: -8px;
+    margin-top: 3.6px;
+    cursor: pointer;
+    position: fixed;
+}
+    ul{
+    position: absolute;
+    display: flex;
+    font-size :1.1em;
+    margin-left: -50px;
+}
+ul li{
+    flex-direction: column;
+    line-height:10px;
+    list-style: none;
+    margin-left: 37.5px;
+    color: #f0d63b;
+}
+
+.first ul li a{
+   font-size: 1em;
+    text-decoration: none;
+    color:black;
+    margin-top: -19px;
+    margin-left: -12px;
+}
+ .first ul ul{
+    position: absolute;
+     left: 52px;
+    width: 129px;
+    height: 280px;
+    top: 18px;
+     display: none;  
+     padding: 20px 30px; 
+    background:whitesmoke;
+    border-radius: 5px;
+} 
+
+.first ul .dropdown{
+    position: relative;
+}
+.first ul .dropdown:hover >ul{
+    display: initial;
+}
+.first ul ul li {
+    margin-top: -1.8px;
+}
+
+.first ul ul li a{
+        line-height: 43px;
+        margin-left: -36px;
+    }  
+.first ul ul li a:hover{
+    margin-left: 1px;
+    color:#404040;
+}
+
+img.one{
+    width: 148px;
+    height: 146.8px;
+    margin-top: 60px;
+    margin-left: 103px;
+}
+.col{
+    margin-top: -114px;
+    padding-left: 256px;
+    font-size: 1.5em;
+    word-spacing: 3px;
+    color: blue;
+}
+.col2{
+    margin-top: -8px;
+    padding-left: 256px;
+    font-size: 1.1em;
+    word-spacing: 1px;
+}
+.second{
+    margin-left: -26px;
+    background-color:azure;
+    height: 182px;
+}
+.right{
+    font-size: 1.6em;
+    word-spacing: 5px;
+    color: #2d2d2d;
+    float: right;
+    margin-right: 316px;
+    margin-top: -110px;
+    animation: fade 0.6s;
+    cursor: pointer;
+}
+.col4,img.two2{
+   display: none;
+}
+ .right:hover .col4{
+    display: block;
+} 
+ .right:hover  img.two2{
+    display: block;
+} 
+.right:hover .col3{
+    display: none;
+}  
+.right:hover img.two{
+    display: none;
+}  
+ 
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+       opacity: 1;
+    }
+}
+img.two{
+    width: 124px;
+    height: 97px;
+    float: right;
+    margin-top: -107px;
+    margin-right: -101px;
+}
+img.two2{
+    width: 123px;
+    height: 110px;
+    float: right;
+    margin-top: -118px;
+    margin-right: -124.8px;
+}
+img.three{
+    width: 126px;
+    height: 110px;
+    float: right;
+    margin-top: -115px;
+    margin-right: -236px;
+    cursor: pointer;
+}
+.third{
+    margin-top: 26px;
+}
+.third ul{
+    position: absolute;
+    display: flex;
+    font-size :1.25em;
+    margin-left: -14px;
+    z-index: 1px;
+    cursor: pointer;
+}
+.third ul li{
+    flex-direction: column;
+    line-height:10px;
+    list-style: none;
+    margin-left: 50.5px;
+    color: #404040;
+}
+ .third ul ul{
+    position: absolute;
+     left: -34px;
+    width: 212px;
+    height: 283px;
+    margin-top: 16px;  
+ display: none;  
+ padding: 20px 30px; 
+     background:whitesmoke; 
+   border-radius: 5px;
+    font-size: 20px;
+} 
+.third a{
+    color: black;
+}
+.third ul .dropdown2 a{
+    text-decoration: none;
+    color: #404040;
+}
+
+.third ul .dropdown2:hover >ul{
+    display: initial;
+}
+.third ul ul li {
+    margin-top: -1.8px;
+}
+
+.third ul ul li a{
+        line-height: 43px;
+        margin-left: -38px;
+        text-decoration: none;
+}  
+.third ul ul li a:hover{
+    color:blue;
+    margin-left: 6px;
+} 
+
+.third ul .dropdown3 ul{
+    position: absolute;
+     left: -18px;
+    width: 300px;
+    height: 169px;
+    margin-top: 16px;  
+ display: none;  
+  padding: 20px 30px; 
+     background:whitesmoke; 
+    border-radius: 5px;
+    font-size: 20px;
+} 
+.third ul .dropdown3 a{
+    text-decoration: none;
+    color: #404040;
+}
+.third ul .dropdown3:hover >ul{
+    display: initial;
+}
+.third ul .dropdown3 ul  li {
+    margin-top: -1.8px;
+}
+
+.third ul .dropdown3 ul li a{
+        line-height: 43px;
+        margin-left: -46px;
+        text-decoration: none;
+}  
+.third ul .dropdown3 ul li a:hover{
+    color:blue;
+    margin-left: 1px;
+}
+.third ul .dropdown4 ul{
+    position: absolute;
+     left: -296px;
+    width: 970px;
+    height: 325px;
+    margin-top: 16px;  
+  display: none;   
+  padding: 20px 30px; 
+     background:whitesmoke; 
+    border-radius: 5px;
+    font-size: 20px;
+} 
+
+.third ul .dropdown4 a{
+    text-decoration: none;
+    color: #404040;
+}
+ .third ul .dropdown4:hover >ul{
+    display: initial;
+} 
+.third ul .dropdown4 ul  li {
+    margin-top: -1.8px;
+}
+
+.third ul .dropdown4 ul li a{
+        line-height: 43px;
+        margin-left: -39px;
+        text-decoration: none;
+}  
+.third ul .dropdown4 ul li a:hover{
+    color:blue;
+    margin-left: 1px;
+}
+
+.third ul .dropdown4 ul  ul{
+    width: 323px;
+    margin-top: -346px;
+    left: 372px;
+    display: initial;
+}
+.third ul .dropdown4 ul ul ul{
+    width: 273px;
+    margin-top: -226px;
+    left: 365px;
+    display: initial;
+}
+.third ul .dropdown5 ul{
+    position: absolute;
+     left: -18px;
+    width: 300px;
+    height: 284px;
+    margin-top: 16px;  
+ display: none;  
+  padding: 20px 30px; 
+     background:whitesmoke; 
+    border-radius: 5px;
+    font-size: 20px;
+} 
+.third ul .dropdown5 a{
+    text-decoration: none;
+    color: #404040;
+}
+.third ul .dropdown5:hover >ul{
+    display: initial;
+}
+.third ul .dropdown5 ul  li {
+    margin-top: -1.8px;
+}
+
+.third ul .dropdown5 ul li a{
+        line-height: 43px;
+        margin-left: -43px;
+        text-decoration: none;
+}  
+.third ul .dropdown5 ul li a:hover{
+    color:blue;
+    margin-left: 1px;
+}
+.third ul .dropdown6 ul{
+    position: absolute;
+     left: -18px;
+    width: 300px;
+    height: 242px;
+    margin-top: 16px;  
+ display: none;  
+  padding: 20px 30px; 
+     background:whitesmoke; 
+    border-radius: 5px;
+    font-size: 20px;
+} 
+.third ul .dropdown6 a{
+    text-decoration: none;
+    color: #404040;
+}
+.third ul .dropdown6:hover >ul{
+    display: initial;
+}
+.third ul .dropdown6 ul  li {
+    margin-top: -1.8px;
+}
+
+.third ul .dropdown6 ul li a{
+        line-height: 43px;
+        margin-left: -46px;
+        text-decoration: none;
+}  
+.third ul .dropdown6 ul li a:hover{
+    color:blue;
+    margin-left: 1px;
+}
+.third ul .dropdown7 ul{
+    position: absolute;
+     left: -18px;
+    width: 210px;
+    height: 164px;
+    margin-top: 16px;  
+ display: none;  
+ padding: 20px 30px; 
+     background:whitesmoke; 
+    border-radius: 5px;
+    font-size: 20px;
+} 
+.third ul .dropdown7 a{
+    text-decoration: none;
+    color: #404040;
+}
+.third ul .dropdown7:hover >ul{
+    display: initial;
+}
+.third ul .dropdown7 ul  li {
+    margin-top: -1.8px;
+}
+
+.third ul .dropdown7 ul li a{
+        line-height: 43px;
+        margin-left: -50px;
+        text-decoration: none;
+}  
+.third ul .dropdown7 ul li a:hover{
+    color:blue;
+    margin-left: 1px;
+}
+
+.four{
+    background-color:#eee;
+    width: 101.2%;
+    height: 434px;
+    margin-top: 3px;
+    margin-left: -8px;
+}
+
+.four h1{
+     color: #444;
+    margin-top: 93px;
+    padding-left: 414px;
+    padding-top: 26px;
+} 
+.four .sto{
+margin-left: 93px;
+  padding-top: 1px;
+  word-spacing:13px; 
+  font-size: 21px;
+  color: #864444;
+  line-height: 43px;
+}
+.four .rea{
+    width: 164px;
+    height: 46px;
+border: 1px solid blue;
+   text-align: center;
+   line-height: 44px;
+   background-color: blue;
+   border-radius: 9px;
+   cursor: pointer;
+   margin-top: 13px;
+   margin-left: 581px;
+}
+.four .rea a{
+    color: white;
+    text-decoration: none;
+}
+.four .rea:hover{
+    background-color: red;
+}
+.four .foutwo{
+    margin-top: -12px;
+    width: 100%;
+    height: 77px;
+    background-color: #28568e;
+}
+.four .foutwo ul{
+    position: relative;
+    display: flex;
+    margin-top: 32px;
+   cursor: pointer;
+}
+.four .foutwo ul li{    
+font-size: 21.1px;
+word-spacing: 2px;
+    width: 673px;
+color: white;
+flex-direction: row;
+list-style: none;
+margin-left: 139px;
+}
+.four .foutwo ul li:hover{  
+    color: black;  
+    }
+.four .box1{
+    position: absolute;
+    background-color: #28568e;
+    width: 276px;
+    height: 76px;
+    margin-top: -76.9px;
+    cursor: pointer;
+}
+.four .box1 span{
+color:yellow;
+margin-left: 56px;
+font-size: 1.3em;
+line-height: 71px;
+} 
+.four .box2{
+    position: absolute;
+    background-color: #28568e;
+    width: 283px;
+    height: 77px;
+    margin-top: -76.3px;
+    margin-left: 1066px;
+    cursor: pointer;
+}
+.four .box2 span{
+color:white;
+margin-left: 89px;
+font-size: 1.3em;
+line-height: 78px;
+} 
+.five{
+    display: flex;
+    margin-left:78px;
+    margin-top: 132px;
+}
+.five div{
+    flex-direction: row;
+    width: 434px;
+    height: 334px;
+    background-color: red;
+    margin-left: 143px;
+}
+.five span{
+    position: absolute;
+    font-size: 14em;
+    margin-top:22px;
+    color: white;
+    margin-left: -99px;
+}
+
+.five div p{
+    color: black;
+    margin-left: 103px;
+    color: white;
+    font-size: 1.2em;
+    padding-top:13px;
+}
+
+.five2{
+    display: flex;
+    margin-left:-108px;
+    margin-top: 62px;
+}
+.five2 div{
+    width: 438px;
+    height: 334px;
+    background-color: black;
+    margin-left: 183px;
+}
+ .five2 span{
+    position: absolute;
+    font-size: 14em;
+    margin-top:14px;
+    color: white;
+    margin-left: -99px;
+}
+
+.five2 div p{
+    color: black;
+    margin-left: 103px;
+    color: white;
+    font-size: 1.2em;
+    padding-left:13px;
+}
+.six{
+    background-color: #28568e;
+    width: 101.2%;
+    height: 438px;
+    margin-top: 2px;
+    color: white;
+    margin-left: -8px;
+}
+
+.six1{
+    margin-left: -45px;
+    margin-top: -69px;
+} 
+.six1 > .le{
+    font-size: 1.2em;
+    margin-top: 113px;
+    margin-left: 103px;
+    padding-top: 39px;   
+}
+.six1 >.le3{
+    margin-left: 105px;
+    font-size: 1.2em;
+    line-height: 34px;
+    word-spacing: 2px;
+    margin-top: -2px;
+}
+
+ .six2{
+    margin-top: -384px;
+    margin-left: 472px;
+ }  
+ .six2  p{
+    width: 210px;
+    display: block;
+    font-size: 1.2em;
+   word-spacing: 4px;
+  line-height: 28px;
+  border-bottom: 1px dashed black;
+}
+.six3{
+    margin-top: -254px;
+    margin-left:748px;
+ }
+ .six3 >.pro2{
+  border: 1px solid #f0d63b;
+  width: 213px;   
+  word-spacing: 4px;
+  line-height: 28px;
+ font-size: 1.1em;
+ color:black;
+ background-color: #f0d63b;
+}
+.six4{
+    margin-top: -138px;
+    margin-left:1038px;
+ }
+ .six4 > .con2{
+  word-spacing: 4px;
+  line-height: 33px;
+ font-size: 1.2em;
+} 
+.seven{
+     background-color: #2b2d3b;
+    width: 101.2%;
+    height: 112px;
+    margin-left:-8px ;
+    margin-top: -1px;
+}
+.seven .cn{
+    position: absolute;
+    color: white;
+    font-size: 1.1em;
+    margin-top: 36.5px;
+    margin-left: 140px;
+    word-spacing: 2px;
+}
+.seven .cn2{
+    position: absolute;
+    color: white;
+    font-size: 1.2em;
+    margin-top: 39px;
+    margin-left: 878px;
+    word-spacing: 4px;
+}
+#slider{
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #34455a;
+    margin-top: 94px;
+}
+.slider{
+margin-top: 73px;
+  position: relative;
+  width: 80%;
+  height: 86%;
+  overflow: hidden;
+}
+.images{
+    display: flex;
+    width: 100%;
+    transition: all 0.15s ease;
+}
+.images input{
+    display: none;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #fff 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.dots label:hover{
+    background: white;
+}
+#img1:checked~.m1{
+    margin-left: 0;
+}
+#img2:checked~.m2{
+    margin-left: -200%;
+}
+#img3:checked~.m3{
+    margin-left: -300%;
+}
+#img4:checked~.m4{
+    margin-left:-500%;
+}
+#img5:checked~.m5{
+    margin-left:-600%;
+}
+#img6:checked~.m6{
+    margin-left: -800%;
+}
+#img7:checked~.m7{
+    margin-left:-905%;
+}
+#img8:checked~.m8{
+    margin-left:-900%;
+}

@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 76px;
+    background-color:#616e7f;
+    margin-top: -34px;
+}
+header > h1{
+    font-size: 33px;
+    color: #e0c837;
+   padding-left: 56px;
+   padding-top: 23px;
+}
+ table{
+    margin-left: 98px;
+    margin-top: -10px;
+}
+
+table th{
+    background-color: darkblue;
+    color: white;
+} 
+table tr{
+    text-align: center;
+    word-spacing: 2px;
+}
+
+.end{
+    background-color: #2b2d3b;
+   width: 100.6%;
+   height: 100px;
+   margin-left:-8px ;
+   margin-top: 17px;
+}
+.end .cn{
+   position: absolute;
+   color: white;
+   font-size: 1.1em;
+   margin-top: 30.5px;
+   margin-left: 140px;
+   word-spacing: 2px;
+}
+.end .cn2{
+   position: absolute;
+   color: white;
+   font-size: 1.2em;
+   margin-top: 39px;
+   margin-left: 878px;
+   word-spacing: 4px;
+}
+
+
+    

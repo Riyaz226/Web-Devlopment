@@ -1,0 +1,49 @@
+h2{
+    word-spacing: 2px;
+    margin-left: 28px;
+    margin-top: 23px;
+    color: #28568e;
+}
+.one{
+    color:#28568e;
+    font-size: 1.2em;
+    word-spacing: 2px;
+    padding-left: 56.5px;
+    line-height: 45px;
+}
+table{
+    margin-left:298px;
+    margin-top: -6px;
+}
+
+table th{
+    background-color: darkblue;
+    color: white;
+} 
+table tr{
+    text-align: center;
+    word-spacing: 2px;
+}
+.end{
+    background-color: #2b2d3b;
+   width: 101.2%;
+   height: 112px;
+   margin-left:-8px ;
+   margin-top: 3px;
+}
+.end .cn{
+   position: absolute;
+   color: white;
+   font-size: 1.1em;
+   margin-top: 36.5px;
+   margin-left: 140px;
+   word-spacing: 2px;
+}
+.end .cn2{
+   position: absolute;
+   color: white;
+   font-size: 1.2em;
+   margin-top: 39px;
+   margin-left: 878px;
+   word-spacing: 4px;
+}
